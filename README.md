@@ -48,9 +48,10 @@ Requires `uv`.
 
 1. `cd python-api`
 2. `uv sync`
-3. `uv run uvicorn app.main:app --reload --port 5000`
+3. `uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 5000`
 
 The Python API runs on `http://localhost:5000` by default.
+Use `0.0.0.0` when you need access from the VM's IPv4 address.
 
 ## Endpoints
 
