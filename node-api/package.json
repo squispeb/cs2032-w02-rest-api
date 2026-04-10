@@ -1,0 +1,13 @@
+{
+  "name": "node-api",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.1.43",
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  }
+}
